@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <br>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+    </nav>
+    <div class="logform">
+        <h2><u>Login</u></h2>
+        <form onsubmit="check()">
+            <label id="username">User Name:</label>
+            <input type="text" placeholder="Username"><br>
+            <label id="pass">Password:</label>
+            <input type="password" placeholder="Password"><br>
+            <a href="register.html">forgot password?</a><br><br>
+
+            <button type="submit" id="but"><a href="checkout.html" style="color: black;">Login</a></button>
+        </form>
+        <br>
+        <br><br>
+        <span>New User?<a href="register.html">Click here to register</a></span>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
+
+    <title>Renshu</title>
+</head>
+<body>
+    <header>
+        <div class="quickaccess">
+
+        </div>
+
+        <menu>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <img src="logo.png" style="height: 20px; width: 20px; margin-left: 20px;">
+                    <a class="navbar-brand" href="movies.html">&emsp;Renshu</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="movies.html">HOME</a>
+                            </li>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#dats">MOVIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="register.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link" href="login.html">LOGIN</a>
+                            <!-- <div class="dropdown-content">
+                            <ul>
+                                <li><a href="#">MOVIES</a></li>
+                                <li><a href="">EVENTS</a></li>
+                            </ul>
+                            </div> -->
+                        </div>
+                        <!-- </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DINE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    </div>
+                </div>
+                </nav>
+        </menu>
+    </header>
+    <main class="container">
+        <div class="bill p-col">
+            <div style="width: fit-content; margin: auto; justify-content: center;">
+                <h2>Checkout</h2>
+                <div class="uline"></div>
+            </div>
+            <div class="scr-img"><img src="pvr.png"></div>
+            <div class="details">
+                <div class="label column">
+                    <br>
+                    <span class="ctg">Movie Name:</span><br>
+                    <span class="ctg">Show Date:</span><br>  
+                    <span class="ctg">Show Time:</span><br>
+                    <span class="ctg">Screen:</span><br>
+                    <span class="ctg">Seats:</span><br>
+                    <span class="ctg">Ticket Price:</span><br>                
+                    <span class="ctg">No. of Tickets:</span><br>
+                    <!-- <span class="ctg">Show Price:</span><br>              -->
+                    <span class="ctg">Food:</span><br><br>
+                    <span class="ctg"><h4>Total amount:</h4></span><br>
+                </div>
+                
+                <div class="vals column">
+                    <br>
+                    <span class="mv-nm">Black Widow</span><br>
+                    <span class="mv-dt">10.07.2021</span><br>
+                    <span class="mv-tm">9:30 A.M.</span><br>
+                    <span class="mv-scr">S1</span><br>
+                    <span class="mv-seats">A2, A3, A4</span><br>
+                    <span class="mv-price">&#8377;200</span><br>
+                    <span class="tnos">3</span><br>
+                    <!-- <span class="tprice">600</span><br> -->
+                    <span class="mv-fd">&#8377;0</span><br><br>
+                    <span class="fin-amt"><h3>&#8377;600</h3></span>
+                </div>
+            </div>
+        </div>
+        <div class="payment p-col details">
+            <div style="width: fit-content; margin: auto; justify-content: center;">
+                <h2>Payment Methods</h2>
+                <div class="uline"></div>
+            </div>
+            <div class="meth">
+                <span>Credit/Debit Cards</span>
+                <div>
+                    <img src="pays/mc.png">
+                    <img src="pays/visa.png">
+                    <img src="pays/ae.png">
+                </div>
+                <div>
+                    <a id="sbi" class="button" href="">SBI Gateway</a>
+                    <a id="razor" class="button" href="">RazorPay Gateway</a>
+                </div>
+            </div>
+            <div class="meth">
+                <span>UPI(Unified Payments Interface)</span>
+                <div>
+                    <img src="pays/upi.png">
+                    <img src="pays/gpay.png">
+                    <img src="pays/ppal.png">
+                    <img src="pays/ptm.png">
+                </div>
+                <a id="gpay" class="button" href="">Google Pay</a>
+                <a id="ppal" class="button" href="">PayPal</a>
+                <a id="ptm" class="button" href="">Paytm</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

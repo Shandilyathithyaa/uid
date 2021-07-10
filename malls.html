@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(150, 219, 150);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .container {
+                margin-left: 400px;
+                margin-top: 10px;
+                width: 700px;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                background-color: rgb(249,249,249);
+                border: solid 2px;
+            }
+
+            #i1 {
+                visibility: hidden;
+                background-color: burlywood;border:1px solid black;
+            }
+
+            #i2 {
+                visibility: hidden;
+                background-color: cornsilk;border:1px solid black;
+            }
+
+            #i3 {
+                visibility: hidden;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2><u>We are present in Tamil Nadu, Kerala and Andhra Pradesh</u></h2>
+            <img src="India.jpg" width="600" height="700" usemap="#workmap">
+            <map name="workmap">
+                <area shape="poly" coords="182,678,182,634,167,603,191,579,193,584,202,564,211,567,252,558,243,590,244,631,231,632,204,674" alt="TN" href="movies.html" onmouseover="showscr('i1')" onmouseout="hidescr('i1')">
+                <area shape="poly" coords="251,546,251,500,344,427,324,422,185,495,177,514,190,539" alt="AP" href="movies.html" onmouseover="showscr('i2')" onmouseout="hidescr('i2')">
+                <area shape="poly" coords="134,566,180,672,180,632,166,590," alt="Kerala" href="movies.html" onmouseover="showscr('i3')" onmouseout="hidescr('i3')">
+            </map>
+            <img id="i1" src="ch.png" style="position: absolute; top: 433px; left: 668px;background-color: burlywood;border:1px solid black;">
+            <img id="i2" src="vi.png" style="position: absolute; top: 313px; left: 740px;background-color: cornsilk;border:1px solid black;">
+            <img id="i3" src="co.png" style="position: absolute; top: 500px; left: 230px;background-color: cyan;border:1px solid black;">
+            
+        </div>
+        <!-- <p id="demo"></p> -->
+    </body>
+    <script>
+        function showCoords(event)
+         {
+            var x = event.clientX;
+            var y = event.clientY;
+            var coords = "X coords: " + x + ", Y coords: " + y;
+            document.getElementById("demo").innerHTML = coords;
+        }
+
+        function showscr(id){
+            imag = document.getElementById(id);
+            imag.style.visibility = "visible";
+        }
+
+        function hidescr(id){
+            imag = document.getElementById(id);
+            imag.style.visibility = "hidden";
+        }
+    </script>
+</html>

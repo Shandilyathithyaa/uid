@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/seats.css" rel="stylesheet">
+
+    <title>Renshu</title>
+</head>
+<body>
+    <header>
+        <div class="quickaccess">
+
+        </div>
+
+        <menu>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <img src="logo.png" style="height: 20px; margin-left: 20px;">
+                    <a class="navbar-brand" href="movies.html">&emsp;Renshu</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="movies.html">HOME</a>
+                            </li>
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#dats">MOVIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="register.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link" href="login.html">LOGIN</a>
+                            <!-- <div class="dropdown-content">
+                            <ul>
+                                <li><a href="#">MOVIES</a></li>
+                                <li><a href="">EVENTS</a></li>
+                            </ul>
+                            </div> -->
+                        </div>
+                        <!-- </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DINE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    </div>
+                </div>
+                </nav>
+        </menu>
+    </header>
+    <main class="container">
+        <div class="seat sel">
+            <div class="screensp">
+                <div class="screen">Screen</div>
+            </div>
+            <div class="seats">
+                <div class="r1">
+                    <label>A&emsp;&emsp;&emsp;</label>
+                    <input id="A1" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="A2" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="A3" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                    <input id="A4" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="A5" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="A6" type="button" class="seat-but" onclick="selSeat(id)">
+                </div>
+                <div class="r2">
+                    <label>B&emsp;&emsp;&emsp;</label>
+                    <input id="B1" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="B2" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="B3" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                    <input id="B4" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="B5" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="B6" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                </div>
+                <div class="r3">
+                    <label>C&emsp;&emsp;&emsp;</label>
+                    <input id="C1" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="C2" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="C3" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                    <input id="C4" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="C5" type="button" class="seat-but" onclick="selSeat(id)">
+                    <input id="C6" type="button" class="seat-but" onclick="selSeat(id)">
+                </div>
+                <div class="col2">
+                    <div class="r1" style="margin-bottom: 8px;">
+                        <!-- <label>A&emsp;&emsp;&emsp;</label> -->
+                        <input id="A7" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A8" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A9" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="A10" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A11" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A12" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A13" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A14" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A15" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="A16" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A17" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A18" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A19" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A20" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="A21" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                    </div>
+                    <div class="r2" style="margin-bottom: 8px;">
+                        <!-- <label>A&emsp;&emsp;&emsp;</label> -->
+                        <input id="B7" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B8" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B9" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="B10" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B11" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B12" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B13" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B14" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B15" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="B16" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B17" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B18" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B19" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B20" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="B21" type="button" class="seat-but unavail" onclick="selSeat(id)"><br>
+                    </div>
+                    <div class="r3">
+                        <!-- <label>A&emsp;&emsp;&emsp;</label> -->
+                        <input id="C7" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C8" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C9" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="C10" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C11" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C12" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C13" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C14" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C15" type="button" class="seat-but unavail" onclick="selSeat(id)">
+                        <input id="C16" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C17" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C18" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C19" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C20" type="button" class="seat-but" onclick="selSeat(id)">
+                        <input id="C21" type="button" class="seat-but" onclick="selSeat(id)">
+                    </div>
+                </div>
+                <div class="r9">
+                    <br><br>
+                    <label>&emsp;&emsp;</label>
+                    <label>&emsp;&emsp; 1&emsp;&emsp;2 &emsp; 3 &emsp; 4&emsp;&emsp;5&emsp;&emsp;6</label>
+                    <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 7&emsp;&emsp;8 &emsp; 9 &emsp; 10&emsp;11&emsp; 12&emsp;</label>
+                    <label>13&emsp; 14&emsp; 15&emsp; 16&emsp; 17&emsp; 18&emsp; 19&emsp; 20&emsp; 21&emsp;</label>
+                </div>
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="seat-but"></div>
+        <span>-Available&emsp;&emsp;</span>
+        <div class="seat-but unavail"></div>
+        <span>-Unavailable&emsp;&emsp;</span>
+        <div class="seat-but selected"></div>
+        <span>-Selected&emsp;&emsp;</span>
+        <a href="login.html" class="button rit" onclick="confirm()">Book Seats</a>
+    </footer>
+
+    <script src="js/seats.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
