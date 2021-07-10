@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    background-image: url("bg2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+body {
+    background-color: black ;
+}
+
+menu {
+    margin: 0px;
+    background-color: rgb(54, 57, 63);
+    padding-left: 0px;
+}
+
+.date {
+    width: 90%;
+    background-color: grey;
+    border: 1px double darkgray;
+    border-radius: 20px;
+    margin: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 1000px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.d-block {
+    height: 700px;
+}
+
+.dts {
+    border: none;
+    background-color: whitesmoke;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.dts :hover {
+    background-color: chocolate;
+}
+
+.sel {
+    border: none;
+    background-color: rgb(170, 211, 108);
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#mvd h2{
+    color: white;
+}
+
+.uline {
+    width: 70%;
+    height: 5px;
+    background-color: rgb(231, 228, 228);
+    margin-left: 15%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.mv {
+    margin: 20px;
+    position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid grey;
+}
+
+.poster {
+    width: 20%;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.details {
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    padding: 20px;
+    font-weight: 500;
+
+}
+.mv-name {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.mv-tims {
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.692);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.timebut {
+    background-color: #86e25c79;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    border:1px double black;
+    border-radius: 5px;
+    margin: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.rit {
+    float: left;
+}
+.unavail {
+    background-color: rgb(250, 195, 195);
+}
+
+.less {
+    background-color: rgb(243, 243, 162);
+}

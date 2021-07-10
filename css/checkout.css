@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("C:/Users/cmani/Desktop/College/UID/Project/bg2.png");
+}
+
+main {
+    height: 650px;
+}
+
+menu {
+    padding-right: 20px;
+    
+}
+
+.navbar-nav {
+    position: relative;
+    left: 900px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.p-col {
+    background-color: rgba(188, 240, 247, 0.7);
+    width: 40%;
+    height: 97%;
+    padding: 40px;
+    padding-top: 10px;
+    border: 5px double grey;
+    float: left;
+    margin-right: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.uline {
+    width: 70%;
+    height: 5px;
+    background-color: rgb(68, 66, 66);
+    margin-left: 15%;
+}
+
+.scr-img {
+    height: 140px;
+    width: 100%;
+}
+
+.scr-img img {
+    width: 100%;
+    height: 100%;
+}
+.details {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.column {
+    width: 40%;
+    float: left;
+}
+
+.vals {
+    float: right;
+}
+
+.vals span{
+    margin-bottom: 15px;
+}
+.ctg {
+    margin-bottom: 15px;
+}
+
+.payment {
+    width: 55%;
+    background-color: rgba(220, 245, 184, 0.7);
+}
+
+.meth {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 40%;
+    border: 3px solid rgb(212, 164, 164);
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+div img {
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.meth a:hover {
+    background-color: orange;
+}

@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .seat {
+    background-color: darkgray;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+} */
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(162, 61, 245));
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+menu {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 1000px;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.screensp {
+    /* background-color: rgb(233, 200, 236); */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    background-color: lightblue;
+    width: 90%;
+    height: 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seats {
+    padding-left: 5%;
+}
+
+label{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.seat-but {
+    background-color: rgb(201, 201, 201);
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    margin-top: px;
+    border: 5px double gray;
+    border-top: 0px;
+    border-radius: 5px;
+
+}
+
+.selected {
+    background-color: rgb(16, 170, 16);
+    border: 5px double darkgreen;
+    border-top: 0px;
+}
+
+.unavail {
+    background-color: red;
+    border: 5px double brown;
+    border-top: 0px;
+}
+
+footer {
+    background-color: rgb(241, 233, 111);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.button {
+    background-color: rgb(71, 187, 67); /* Green */
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.col2 {
+    position: absolute;
+    top: 270px;
+    right: 200px;
+}
+
+.button:hover {
+    background-color: rgb(41, 61, 238);
+    color: white;
+}  
+
+  .rit {
+    position: absolute;
+    right: 30px;
+  }
