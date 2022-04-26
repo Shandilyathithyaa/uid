@@ -1,3 +1,9 @@
+<style>
+    . {
+        background-color: black;
+    }
+</style>
+
 # Task-1
 
 Following are the few subtasks that will help you run through the python essentials for getting started with AI and ML.
